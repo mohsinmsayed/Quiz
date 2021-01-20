@@ -1,0 +1,411 @@
+html {
+    font-size: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.dNone {
+    display: none!important;
+}
+/* CSS class used to blur gamePage Activity */
+.blurred {
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+/* Button Style Class for all buttons */
+.btnStyle {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #0c056d;
+    outline: none;
+    font-weight: 700;
+    padding: 1rem 1.3rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    box-shadow: 0px 7px 7px rgba(12, 5, 109,0.7);
+}
+.btnStyle:hover {
+    transition: 500ms;
+    color: #0c056d;
+    background-color: white;
+}
+.btnStyle:disabled {
+    background-color: rgba(101, 95, 182, 0.5);
+    color: white;
+    box-shadow: 0px 7px 7px rgba(12, 5, 109,0.7);
+}
+
+/* container style class */
+.elementStyle {
+    border-radius: 1rem;
+    padding: 2% 4%;
+    background-color: rgba(255,255,255,0.9);
+    box-shadow: 0px 7px 7px rgb(219,219,219);
+}
+
+/* correct, incorrect etc styles */
+.correctAns {
+    color: rgb(0, 150, 0);
+    box-shadow: 0px 7px 7px rgba(0, 255, 0,0.5);
+}
+.incorrectAns {
+    color: red;
+    box-shadow: 0px 7px 7px rgba(255,0,0,0.5);
+}
+.selectFirst {
+    transition: 1000ms;
+    box-shadow: 0px 7px 7px rgba(255, 255, 0,0.5);
+}
+
+/* Background Div Style (used to disable backgr click) */
+#backgr {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Home Page Activity Stylesheet */
+#homePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url("imgResources/quizbg.jpg");
+    background-size: contain;
+}
+#logoContainer {
+    width: 50%;
+    margin-bottom: 25%;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+#playerName {
+    font-family: 'Poppins', sans-serif;
+    color: #0c056d;
+    outline: none;
+    font-weight: 700;
+    width: 35%;
+    padding: 0.8rem 1rem;
+    border-radius: 7px;
+    border: 1px solid rgb(219,219,219);
+    border-bottom: 5px solid #0c056d;
+    text-align: center;
+    margin-bottom: 5%;
+}
+#playerName:hover {
+    transition: 500ms;
+    box-shadow: 0px 4px 4px rgba(12, 5, 109,0.7);
+}
+#playerName::placeholder {
+    color: rgb(219,219,219);
+}
+#homePage p {
+    font-size: 0.8rem;
+    color: red;
+    font-weight: 700;
+    background-color: rgba(255,255,255,0.8);
+}
+/* Styles for Instructions DialogBox */
+#dialogBox {
+    flex-direction: column;
+    text-align: center;
+    width: 90%;
+    border-radius: 1rem;
+    color: #0c056d;
+    font-size: 0.8rem;
+    background-color: rgba(255,255,255,0.9);
+    box-shadow: 0px 7px 7px rgb(219,219,219);
+}
+#dialogBox ul {
+    padding: 0;
+    margin: 5%;
+    list-style-type: none;
+    text-align: center;
+}
+#dialogBox button {
+    margin-bottom: 5%;
+}
+
+/* Game Page Activity Stylesheet */
+#gamePage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    height: 100vh;
+    width: 100%;
+    background-image: url("imgResources/quizbg.jpg");
+    background-size: 75% auto;
+    color: #0c056d;
+}
+#topBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    height: 10%;
+}
+#topBar h1 {
+    font-size: 0.7rem;
+}
+#topBar span {
+    font-size: 1rem;
+}
+#quizContainer {
+    font-size: 1rem;
+    font-weight: 700;
+    width: 90%;
+    height: 70%;
+    text-align: center;
+}
+#questionCont {
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#optionsCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70%;
+}
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 17%;
+}
+/* .options:hover {
+    transition: 500ms;
+    box-shadow: 0px 7px 7px rgba(12, 5, 109,0.7);
+} */
+input[type="radio"]:checked + label {
+    transition: 500ms;
+    box-shadow: 0px 7px 7px rgba(12, 5, 109,0.7);
+}
+input[type="radio"] {
+    position: absolute;
+    visibility: hidden;
+}
+#bottomBar {
+    height: 15%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Change Question Dialog Box Styles */
+#chgQuestCont, #exitCont, #timeupCont {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    width: 80%;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    transform: translateX(-50%);
+    color: #0c056d;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 10px rgb(219,219,219), -5px -5px 10px rgb(219,219,219);
+}
+#chgQuestCont button, #exitCont button, #timeupCont button {
+    margin-bottom: 1rem;
+}
+#chgQuestCont li {
+    margin-left: -30px;
+    list-style-type: none;
+}
+#chgQuestCont span {
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* Results Page Activity Stylesheet */
+#resultsPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url("imgResources/quizbg.jpg");
+    background-size: contain;
+    color: #0c056d;
+    text-align: center;
+}
+#playerDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 5%;
+}
+#greetDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 5%;
+}
+#scoreDisplay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin-bottom: 5%;
+}
+#scoreDisplay div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#scoreDisplay hr {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #0c056d;
+}
+
+/* css class for results page details */
+.resultStyle {
+    margin: 5% 0;
+    font-size: 0.8rem;
+}
+.resultStyle span {
+    font-size: 2rem;
+}
+
+/* smaller font-size for small screen devices */
+@media screen and (max-width: 375px) {
+    html {
+        font-size: 75%;
+    }
+}
+
+#landscapeMode {
+    display: none;
+}
+/* Stylesheet for Mobile Site in Landscape Mode */
+@media screen and (orientation:landscape) and (max-width: 930px) {
+    #homePage, #gamePage, #resultsPage, #exitCont, #timeupCont, #chgQuestCont {
+        display: none;
+    }
+    #landscapeMode {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        font-size: 0.5rem;
+        color: #0c056d;
+    }
+    #landscapeMode i {
+        font-size: 1.5rem;
+    }
+}
+
+/* Styles for Tablet size */
+@media screen and (min-width: 768px) {
+    #homePage, #resultsPage {
+        background-size: 50% auto;
+    }
+    #logoContainer {
+        width: 35%;
+        margin-bottom: 10%;
+    }
+    #playerName {
+        width: 30%;
+        margin-bottom: 2rem;
+    }
+    #dialogBox {
+        width: 70%;
+    }
+    #gamePage {
+        background-size: 30% auto;
+    }
+}
+
+/* Stylesheet for Desktop and Tablets in Landscape Mode */
+@media screen and (orientation:landscape) and (min-width: 1024px) {
+    #homePage, #resultsPage {
+        background-size: 50% auto;
+    }
+    #logoContainer {
+        width: 30%;
+        margin-bottom: 10%;
+    }
+    #playerName {
+        width: 25%;
+        margin-bottom: 2rem;
+    }
+    #dialogBox {
+        width: 50%;
+    }
+    #gamePage {
+        background-size: 30% auto;
+    }
+    #topBar, #bottomBar {
+        height: 15%;
+    }
+    #quizContainer {
+        margin-bottom: 5%;
+    }
+    #questionCont {
+        height: 35%;
+    }
+    #optionsCont {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        height: 65%;
+    }
+    .options {
+        width: 40%;
+        margin: 0;
+        height: 30%;
+    }
+    #chgQuestCont, #exitCont, #timeupCont {
+        width: 50%;
+    }
+    #playerDisplay, #greetDisplay, #scoreDisplay {
+        width: 50%;
+        margin-bottom: 2%;
+    }
+    #scoreDisplay {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #scoreDisplay h1 {
+        width: 100%;
+    }
+    #scoreDisplay div {
+        width: 50%;
+        justify-content: space-around;
+    }
+    .resultStyle {
+        margin: 2% 0;
+    }
+}

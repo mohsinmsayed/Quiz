@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz</title>
+        <link rel="icon" href="QuizIcon.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/a9a03359ce.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        
+        <!-- Home Page Activity -->
+        <section id="homePage" class="">
+            <div id="logoContainer">
+                <img src="imgResources/quizLogo.png" id="quizlogo">
+            </div>
+            <input type="text" id="playerName" placeholder="Player Name" autocomplete="off">
+            <button class="btnStyle" id="startBtn">Start Game</button>
+
+            <p class="dNone">Please enter Player Name to continue</p>
+
+            <!-- Rules Dialog Box -->
+            <div id="dialogBox" class="dNone">
+                <h1>INSTRUCTIONS</h1>
+                <ul>
+                    <li>Total Questions - 8</li>
+                    <li>100 Seconds time limit for Each Question</li>
+                    <li>Correct Answer - (+100 Points)</li>
+                    <li>Incorrect Answer - (-10 Points)</li>
+                    <li>Change Question - Can change the given question</li>
+                    <li>Change Question - (-50 Points) - Only 2X uses allowed</li>
+                </ul>
+                <button id="firstQuestion" class="btnStyle">First Question</button>
+            </div>
+        </section>
+
+        <!-- Game Page Activity -->
+        <section id="gamePage" class="dNone">
+            <div id="topBar">
+                <h1 id="totalScore" class="elementStyle">SCORE: <span></span> Points</h1>
+                <h1 id="timeLeft" class="elementStyle">TIME LEFT: <span></span> Seconds</h1>
+            </div>
+            <div id="quizContainer">
+                <div id="questionCont" class="elementStyle">
+                    <h1 id="question"></h1>
+                </div>
+                <div id="optionsCont">
+                    <input type="radio" id="option1" name="options" value="1">
+                    <label for="option1" class="options elementStyle"></label>
+                    <input type="radio" id="option2" name="options" value="2">
+                    <label for="option2" class="options elementStyle"></label>
+                    <input type="radio" id="option3" name="options" value="3">
+                    <label for="option3" class="options elementStyle"></label>
+                    <input type="radio" id="option4" name="options" value="4">
+                    <label for="option4" class="options elementStyle"></label>
+                    
+                </div>
+            </div>
+            <div id="bottomBar">
+                <button class="btnStyle" id="exitBtn">Exit</button>
+                <button class="btnStyle" id="changeBtn">QuestionChange</button>
+                <button class="btnStyle" id="gameControl">Submit</button>
+            </div>
+        </section>
+
+        <!-- div used to deactivate background click -->
+        <div id="backgr" class="dNone"></div>
+
+        <!-- Change Question Dialog Box -->
+        <div id="chgQuestCont" class="elementStyle dNone">
+            <h1>CHANGE QUESTION</h1>
+            <ul>
+                <li>30 Points will be deducted for each change</li>
+                <li>Only 2 Question Changes are allowed</li>
+            </ul>
+            <p>Questions Changed: <span></span> times</p>
+            <button class="btnStyle" id="changeQ">Change Question</button>
+            <button class="btnStyle" id="cancelChg">Cancel</button>
+        </div>
+
+        <!-- Exit Dialog Box -->
+        <div id="exitCont" class="elementStyle dNone">
+            <h1>Sure you want to exit?</h1>
+            <button class="btnStyle" id="exitG">Exit</button>
+            <button class="btnStyle" id="cancelExit">Cancel</button>
+        </div>
+
+        <!-- Time-Up Dialog Box -->
+        <div class="elementStyle dNone" id="timeupCont">
+            <h1>Time's Up!</h1>
+            <p>Seems like you couldn't figure that out in time</p>
+            <button class="btnStyle" id="timeupNextBtn">Next Question</button>
+        </div>
+
+        <!-- Results Page Activity -->
+        <section id="resultsPage" class="dNone">
+            <div id="playerDisplay" class="elementStyle">
+                <h1 class="resultStyle">PLAYER NAME:<br><span></span></h1>
+            </div>
+            <div id="greetDisplay" class="elementStyle">
+                <h1 class="resultStyle"></h1>
+            </div>
+            <div id="scoreDisplay" class="elementStyle">
+                <h1 class="resultStyle">TOTAL SCORE:<br><span></span></h1>
+                <hr>
+                <div>
+                <h2 class="resultStyle">CORRECT<br>ATTEMPTS:<br><span></span></h2>
+                <h2 class="resultStyle">INCORRECT<br>ATTEMPTS:<br><span></span></h2>
+                </div>
+                <div>
+                <h2 class="resultStyle">UNATTEMPTED<br>QUESTIONS:<br><span></span></h2>
+                <h2 class="resultStyle">QUESTIONS<br>CHANGED:<br><span></span></h2>
+                </div>
+            </div>
+            <button class="btnStyle" id="playAgain">Play Again</button>
+        </section>
+
+        <!-- div used to (for Mobile Site in Landscape Mode) tell the user to rotate device -->
+        <div id="landscapeMode">
+            <h1>Please Rotate Your Device into Portait Mode</h1>
+            <i class="fas fa-sync"></i>
+        </div>
+
+        <script src="questionsData.json"></script>
+        <script src="script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,772 @@
+[
+    {
+        "question": "Grand Central Terminal, Park Avenue, New York is the world",
+        "answers":{
+            "1": "largest railway station",
+            "2": "highest railway station",
+            "3": "longest railway station",
+            "4": "None of the above"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "Entomology is the science that studies",
+        "answers":{
+            "1": "Physics and Chemistry",
+            "2": "Physiology or Medicine",
+            "3": "Literature, Peace and Economics",
+            "4": "All of the above"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "Hitler party which came into power in 1933 is known as",
+        "answers":{
+            "1": "Labour Party",
+            "2": "Nazi Party",
+            "3": "Ku-Klux-Klan",
+            "4": "Democratic Party"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "If soccer is called football in England, what is American football called in England?",
+        "answers":{
+            "1": "Handball",
+            "2": "Combball",
+            "3": "American football",
+            "4": "Touchdown"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "What is the largest country in the world?",
+        "answers":{
+            "1": "Russia",
+            "2": "Canada",
+            "3": "China",
+            "4": "United States"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "An organic compound is considered an alcohol if it has what functional group?",
+        "answers":{
+            "1": "Aldehyde",
+            "2": "Carbonyl",
+            "3": "Alkyl",
+            "4": "Hydroxyl"
+        },
+        "correct": "4"
+    },
+    {
+        "question": "What is the 100th digit of Pi?",
+        "answers":{
+            "1": "4",
+            "2": "9",
+            "3": "7",
+            "4": "2"
+        },
+        "correct": "2"
+    },
+    {
+        "question": "A doctor with a PhD is a doctor of what?",
+        "answers":{
+            "1": "Philosophy",
+            "2": "Psychology",
+            "3": "Phrenology",
+            "4": "Physical Therapy"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "What year did World War I begin?",
+        "answers":{
+            "1": "1925",
+            "2": "1905",
+            "3": "1919",
+            "4": "1914"
+        },
+        "correct": "4"
+    },
+    {
+        "question": "What is isobutylphenylpropanoic acid more commonly known as?",
+        "answers":{
+            "1": "Morphine",
+            "2": "Ibuprofen",
+            "3": "Ketamine",
+            "4": "Aspirin"
+        },
+        "correct": "2"
+    },
+    {
+        "question": "What state is the largest state of the United States of America?",
+        "answers":{
+            "1": "Alaska",
+            "2": "California",
+            "3": "Texas",
+            "4": "Washington"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "What is the tallest mountain in Canada?",
+        "answers":{
+            "1": "Whistler Mountain",
+            "2": "Mont Tremblant",
+            "3": "Mount Logan",
+            "4": "Blue Mountain"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "Which of these is a stop codon in DNA?",
+        "answers":{
+            "1": "ACT",
+            "2": "TAA",
+            "3": "ACA",
+            "4": "GTA"
+        },
+        "correct": "2"
+    },
+    {
+        "question": "Which of these countries is NOT a part of the Asian continent?",
+        "answers":{
+            "1": "Russia",
+            "2": "Georgia",
+            "3": "Suriname",
+            "4": "Singapore"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "What is the unit of currency in Laos?",
+        "answers":{
+            "1": "Ruble",
+            "2": "Kip",
+            "3": "Konra",
+            "4": "Dollar"
+        },
+        "correct": "2"
+    },
+    {
+        "question": "Which of these animals belongs in class Chondrichthyes?",
+        "answers":{
+            "1": "Great white shark",
+            "2": "Octopus",
+            "3": "Killer whale",
+            "4": "Catfish"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "What is the name of the Canadian national anthem?",
+        "answers":{
+            "1": "Leaf-Spangled Banner",
+            "2": "O Red Maple",
+            "3": "O Canada",
+            "4": "March of the Puck Drop"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "Which of these is NOT an Australian state or territory?",
+        "answers":{
+            "1": "New South Wales",
+            "2": "Alberta",
+            "3": "Victoria",
+            "4": "Queensland"
+        },
+        "correct": "2"
+    },
+    {
+        "question": "Where is the Luxor Hotel & Casino located?",
+        "answers":{
+            "1": "Jackpot, Nevada",
+            "2": "Las Vegas, Nevada",
+            "3": "Winchester, Nevada",
+            "4": "Paradise, Nevada"
+        },
+        "correct": "4"
+    },
+    {
+        "question": "In what year did the Wall Street Crash take place?",
+        "answers":{
+            "1": "1925",
+            "2": "1932",
+            "3": "1930",
+            "4": "1929"
+        },
+        "correct": "4"
+    },
+    {
+        "question": "What is considered the rarist form of color blindness?",
+        "answers":{
+            "1": "Green",
+            "2": "Red",
+            "3": "Blue",
+            "4": "Purple"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "Which of these species is not extinct?",
+        "answers":{
+            "1": "Komodo dragon",
+            "2": "Japanese sea lion",
+            "3": "Tasmanian tiger",
+            "4": "Saudi gazelle"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "The emblem on the flag of the Republic of Tajikistan features a sunrise over mountains below what symbol?",
+        "answers":{
+            "1": "Bird",
+            "2": "Crown",
+            "3": "Sickle",
+            "4": "Tree"
+        },
+        "correct": "2"
+    },
+    {
+        "question": "Which ocean borders the west coast of the United States?",
+        "answers":{
+            "1": "Indian",
+            "2": "Atlantic",
+            "3": "Pacific",
+            "4": "Arctic"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "All of the following human genetic haplogroup names are shared between Y-chromosome and mitochondrial DNA haplogroups EXCEPT:",
+        "answers":{
+            "1": "Haplogroup U",
+            "2": "Haplogroup L",
+            "3": "Haplogroup T",
+            "4": "Haplogroup J"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "What country saw a world record 315 million voters turn out for elections on May 20, 1991?",
+        "answers":{
+            "1": "United States of America",
+            "2": "India",
+            "3": "Soviet Union",
+            "4": "Poland"
+        },
+        "correct": "2"
+    },
+    {
+        "question": "How many manned moon landings have there been?",
+        "answers":{
+            "1": "1",
+            "2": "6",
+            "3": "3",
+            "4": "7"
+        },
+        "correct": "2"
+    },
+    {
+        "question": "Which is the largest freshwater lake in the world?",
+        "answers":{
+            "1": "Lake Michigan",
+            "2": "Caspian Sea",
+            "3": "Lake Superior",
+            "4": "Lake Huron"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "What name was historically used for the Turkish city currently known as Istanbul?",
+        "answers":{
+            "1": "Adrianople",
+            "2": "Hüdavendigar",
+            "3": "Söğüt",
+            "4": "Constaninople"
+        },
+        "correct": "4"
+    },
+    {
+        "question": "How many legs is it biologically impossible for a centipede to have?",
+        "answers":{
+            "1": "50",
+            "2": "26",
+            "3": "100",
+            "4": "74"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "What is the scientific name of the knee cap?",
+        "answers":{
+            "1": "Femur",
+            "2": "Patella",
+            "3": "Foramen Magnum",
+            "4": "Scapula"
+        },
+        "correct": "2"
+    },
+    {
+        "question": "What physics principle relates the net electric flux out of a closed surface to the charge enclosed by that surface?",
+        "answers":{
+            "1": "Ampere's Law",
+            "2": "Faraday's Law",
+            "3": "Gauss's Law",
+            "4": "Biot-Savart Law"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "What is the fastest land animal?",
+        "answers":{
+            "1": "Thomson’s Gazelle",
+            "2": "Lion",
+            "3": "Cheetah",
+            "4": "Pronghorn Antelope"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "What is the Italian word for 'tomato'?",
+        "answers":{
+            "1": "Cipolla",
+            "2": "Aglio",
+            "3": "Pomodoro",
+            "4": "Peperoncino"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "Botanically speaking, which of these fruits is NOT a berry?",
+        "answers":{
+            "1": "Blueberry",
+            "2": "Strawberry",
+            "3": "Banana",
+            "4": "Concord Grape"
+        },
+        "correct": "2"
+    },
+    {
+        "question": "Which of these is NOT a province in China?",
+        "answers":{
+            "1": "Fujian",
+            "2": "Yangtze",
+            "3": "Sichuan",
+            "4": "Guangdong"
+        },
+        "correct": "2"
+    },
+    {
+        "question": "In a 1994 CBS interview, Microsoft co-founder Bill Gates performed what unusual trick on camera?",
+        "answers":{
+            "1": "Jumping over an office chair",
+            "2": "Jumping backwards over a desk",
+            "3": "Standing on his head",
+            "4": "Typing on a keyboard during a handstand"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "What is the oldest Disney film?",
+        "answers":{
+            "1": "Snow White and the Seven Dwarfs",
+            "2": "Pinocchio",
+            "3": "Dumbo",
+            "4": "Fantasia"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "Which scientific unit is named after an Italian nobleman?",
+        "answers":{
+            "1": "Volt",
+            "2": "Hertz",
+            "3": "Ohm",
+            "4": "Pascal"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "What is the molecular formula of Ozone?",
+        "answers":{
+            "1": "SO4",
+            "2": "C6H2O6",
+            "3": "N2O",
+            "4": "O3"
+        },
+        "correct": "4"
+    },
+    {
+        "question": "What is the name of a rabbit's abode?",
+        "answers":{
+            "1": "Burrow",
+            "2": "Nest",
+            "3": "Den",
+            "4": "Dray"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "Which of the following is NOT a real element?",
+        "answers":{
+            "1": "Hassium",
+            "2": "Praseodymium",
+            "3": "Vitrainium",
+            "4": "Lutetium"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "Harvard University is located in which city?",
+        "answers":{
+            "1": "Cambridge",
+            "2": "Providence",
+            "3": "New York",
+            "4": "Washington D.C."
+        },
+        "correct": "1"
+    },
+    {
+        "question": "Which of these is the name of a Japanese system of alternative medicine, literally meaning 'finger pressure'?",
+        "answers":{
+            "1": "Ukiyo",
+            "2": "Shiatsu",
+            "3": "Majime",
+            "4": "Ikigai"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "Which movie contains the quote, 'Say hello to my little friend!'?",
+        "answers":{
+            "1": "Scarface",
+            "2": "Reservoir Dogs",
+            "3": "Heat",
+            "4": "Goodfellas"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "How many countries does the United States share a land border with?",
+        "answers":{
+            "1": "3",
+            "2": "1",
+            "3": "2",
+            "4": "4"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "What is the capital of Indonesia?",
+        "answers":{
+            "1": "Jakarta",
+            "2": "Bandung",
+            "3": "Medan",
+            "4": "Palembang"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "Which of these chemical compounds is NOT found in gastric acid?",
+        "answers":{
+            "1": "Sulfuric acid",
+            "2": "Hydrochloric acid",
+            "3": "Potassium chloride",
+            "4": "Sodium chloride"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "George Orwell wrote this book, which is often considered a statement on government oversight.",
+        "answers":{
+            "1": "To Kill a Mockingbird",
+            "2": "Catcher and the Rye",
+            "3": "The Old Man and the Sea",
+            "4": "1984"
+        },
+        "correct": "4"
+    },
+    {
+        "question": "Which country was NOT formerly part of Yugoslavia?",
+        "answers":{
+            "1": "Albania",
+            "2": "Croatia",
+            "3": "Serbia",
+            "4": "Macedonia"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "Rolex is a company that specializes in what type of product?",
+        "answers":{
+            "1": "Cars",
+            "2": "Watches",
+            "3": "Computers",
+            "4": "Sports equipment"
+        },
+        "correct": "2"
+    },
+    {
+        "question": "Who wrote 'Harry Potter'?",
+        "answers":{
+            "1": "Terry Pratchett",
+            "2": "J.R.R. Tolkien",
+            "3": "J.K. Rowling",
+            "4": "Daniel Radcliffe"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "Which city is the capital of the United States of America?",
+        "answers":{
+            "1": "Albany",
+            "2": "Seattle",
+            "3": "Washington D.C",
+            "4": "Los Angeles"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "The idea of Socialism was articulated and advanced by whom?",
+        "answers":{
+            "1": "Ashlee Vance",
+            "2": "Vladimir Lenin",
+            "3": "Joseph Stalin",
+            "4": "Karl Marx"
+        },
+        "correct": "4"
+    },
+    {
+        "question": "What is the fastest animal?",
+        "answers":{
+            "1": "Cheetah",
+            "2": "Golden Eagle",
+            "3": "Peregrine Falcon",
+            "4": "Horsefly"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "What is the name given to Indian food cooked over charcoal in a clay oven?",
+        "answers":{
+            "1": "Tandoori",
+            "2": "Biryani",
+            "3": "Pani puri",
+            "4": "Tiki masala"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "Which country is the Taedong River in?",
+        "answers":{
+            "1": "North Korea",
+            "2": "South Korea",
+            "3": "Japan",
+            "4": "China"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "What does  term 'isolation' refer to in microbiology?",
+        "answers":{
+            "1": "The separation of a strain from a natural, mixed population of living microbes",
+            "2": "A lack of nutrition in microenviroments",
+            "3": "The nitrogen level in soil",
+            "4": "Testing effects of certain microorganisms in an isolated enviroments, such as caves"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "What is the capital of Scotland?",
+        "answers":{
+            "1": "Edinburgh",
+            "2": "Glasgow",
+            "3": "Dundee",
+            "4": "London"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "What name represents the letter 'M' in the NATO phonetic alphabet?",
+        "answers":{
+            "1": "Mark",
+            "2": "Matthew",
+            "3": "Mike",
+            "4": "Max"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "How many Harry Potter books are there?",
+        "answers":{
+            "1": "7",
+            "2": "8",
+            "3": "5",
+            "4": "6"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "What is the currency of Poland?",
+        "answers":{
+            "1": "Euro",
+            "2": "Ruble",
+            "3": "Złoty",
+            "4": "Krone"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "What is the area of Vatican City?",
+        "answers":{
+            "1": "0.86 sq km",
+            "2": "0.10 sq km",
+            "3": "0.44 sq km",
+            "4": "12.00 sq km"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "What genetic disease is caused by having an extra Y chromosome (XYY)?",
+        "answers":{
+            "1": "Jacob's Syndrome",
+            "2": "Klinefelter's Syndrome",
+            "3": "Turner's Syndrome",
+            "4": "Down Syndrome"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "What was the first sport to have been played on the moon?",
+        "answers":{
+            "1": "Football",
+            "2": "Golf",
+            "3": "Tennis",
+            "4": "Soccer"
+        },
+        "correct": "2"
+    },
+    {
+        "question": "In the movie 'Blade Runner', what is the term used for human-like androids?",
+        "answers":{
+            "1": "Synthetics",
+            "2": "Cylons",
+            "3": "Replicants",
+            "4": "Skinjobs"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "The derisive acronym 'PIIGS' refers to which of the following European countries and their economic statuses?",
+        "answers":{
+            "1": "Portugal, Ireland, Italy, Greece, Spain",
+            "2": "Poland, Iceland, Italy, Greece, Serbia",
+            "3": "Poland, Iceland, Italy, Greenland, Spain",
+            "4": "Portugal, Iceland, Ireland, Greece, Serbia"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "Which nation claims ownership of Antarctica?",
+        "answers":{
+            "1": "Australia",
+            "2": "United States of America",
+            "3": "United Nations",
+            "4": "No one, but there are claims."
+        },
+        "correct": "4"
+    },
+    {
+        "question": "What country is the second largest in the world by area?",
+        "answers":{
+            "1": "Canada",
+            "2": "Russia",
+            "3": "China",
+            "4": "United States of America"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "The Hunua Ranges is located in...",
+        "answers":{
+            "1": "New Zealand",
+            "2": "Nepal",
+            "3": "China",
+            "4": "Mexico"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "The Space Needle is located in which city?",
+        "answers":{
+            "1": "Toronto",
+            "2": "Los Angles",
+            "3": "Seattle",
+            "4": "Vancouver"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "Which of the following is NOT a word used to describe an earthquake?",
+        "answers":{
+            "1": "Temblor",
+            "2": "Foreshock",
+            "3": "Strike-slip",
+            "4": "Drop-slide"
+        },
+        "correct": "4"
+    },
+    {
+        "question": "What is the capital city of Bermuda?",
+        "answers":{
+            "1": "Hamilton",
+            "2": "Santo Dominigo",
+            "3": "San Juan",
+            "4": "Havana"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "How many objects are equivalent to one mole?",
+        "answers":{
+            "1": "6.022 x 10^23",
+            "2": "6.002 x 10^22",
+            "3": "6.022 x 10^22",
+            "4": "6.002 x 10^23"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "Who starred in the film 1973 movie 'Enter The Dragon'?",
+        "answers":{
+            "1": "Jet Li",
+            "2": "Jackie Chan",
+            "3": "Bruce Lee",
+            "4": "Yun-Fat Chow"
+        },
+        "correct": "3"
+    },
+    {
+        "question": "Leonardo Di Caprio won his first Best Actor Oscar for his performance in which film?",
+        "answers":{
+            "1": "The Revenant",
+            "2": "The Wolf Of Wall Street",
+            "3": "Shutter Island",
+            "4": "Inception"
+        },
+        "correct": "1"
+    },
+    {
+        "question": "Where is the fast food chain 'Panda Express' headquartered?",
+        "answers":{
+            "1": "Rosemead, California",
+            "2": "Sacramento, California",
+            "3": "Fresno, California",
+            "4": "San Diego, California"
+        },
+        "correct": "1"
+    }
+]
